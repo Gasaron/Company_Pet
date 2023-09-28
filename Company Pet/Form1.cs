@@ -3,11 +3,11 @@ using System.Windows.Forms;
 
 namespace Company_Pet
 {
-    public partial class Form1_Inicial : Form
+    public partial class Carregar : Form
     {
         private System.Windows.Forms.Timer timer1;
 
-        public Form1_Inicial()
+        public Carregar()
         {
             InitializeComponent();
 
@@ -26,9 +26,9 @@ namespace Company_Pet
 
         private void AbrirForm2()
         {
-            Form2 form2 = new Form2();
-            form2.FormClosed += Form2_FormClosed;
-            form2.Show();
+            Entrar_Cadastrar Form2 = new Entrar_Cadastrar();
+            Form2.FormClosed += Form2_FormClosed;
+            Form2.Show();
         }
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
@@ -37,6 +37,11 @@ namespace Company_Pet
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Carregar_Load(object sender, EventArgs e)
         {
 
         }

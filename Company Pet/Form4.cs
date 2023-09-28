@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Company_Pet
 {
-    public partial class Entrar : Form
+    public partial class Cadastro : Form
     {
-        public Entrar()
+        public Cadastro()
         {
             InitializeComponent();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

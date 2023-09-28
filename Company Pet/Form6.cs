@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Company_Pet
 {
-    public partial class Entrar : Form
+    public partial class Plantao : Form
     {
-        public Entrar()
+        public Plantao()
         {
             InitializeComponent();
         }

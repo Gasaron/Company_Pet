@@ -18,3 +18,22 @@ C:\Users\aluno\Documents\Brazuna\C#\Company Pet\obj\Debug\net7.0-windows\ref\Com
 C:\Users\aluno\Documents\Brazuna\C#\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Form2.resources
 C:\Users\aluno\Documents\Brazuna\C#\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Form3.resources
 C:\Users\aluno\Documents\Brazuna\C#\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Form1_Inicial.resources
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company Pet.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Carregar.resources
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Entrar_Cadastrar.resources
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Entrar.resources
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Form4.resources
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Properties.Resources.resources
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company Pet.csproj.GenerateResource.cache
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company Pet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company Pet.AssemblyInfoInputs.cache
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company Pet.AssemblyInfo.cs
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company Pet.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company Pet.dll
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\refint\Company Pet.dll
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company Pet.pdb
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Menu.resources
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Cadastro.resources
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Plantao.resources
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Form7.resources
+C:\Users\Aluno\Documents\Brazuna\Company_Pet-main\Company Pet\obj\Debug\net7.0-windows\Company_Pet.Avisos.resources
