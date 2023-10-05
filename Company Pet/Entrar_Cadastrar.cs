@@ -33,8 +33,13 @@ namespace Company_Pet
         private void Cadastrar_Click(object sender, EventArgs e)
         {
             Cadastro entrar = new Cadastro();
-            entrar.Show();
             this.Hide();
+            entrar.Show();
+        }
+
+        private void Entrar_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

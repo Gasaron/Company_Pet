@@ -29,54 +29,53 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Entrar_Cadastrar));
-            Entrar = new Button();
-            Cadastrar = new Button();
-            SuspendLayout();
+            this.Entrar = new System.Windows.Forms.Button();
+            this.Cadastrar = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // Entrar
             // 
-            Entrar.BackColor = Color.Transparent;
-            Entrar.Cursor = Cursors.Hand;
-            Entrar.FlatAppearance.BorderSize = 0;
-            Entrar.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            Entrar.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            Entrar.FlatStyle = FlatStyle.Flat;
-            Entrar.Location = new Point(294, 576);
-            Entrar.Name = "Entrar";
-            Entrar.Size = new Size(290, 73);
-            Entrar.TabIndex = 0;
-            Entrar.UseVisualStyleBackColor = false;
-            Entrar.Click += Entrar_Click;
+            this.Entrar.BackColor = System.Drawing.Color.Transparent;
+            this.Entrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Entrar.FlatAppearance.BorderSize = 0;
+            this.Entrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Entrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Entrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Entrar.Location = new System.Drawing.Point(294, 576);
+            this.Entrar.Name = "Entrar";
+            this.Entrar.Size = new System.Drawing.Size(290, 73);
+            this.Entrar.TabIndex = 0;
+            this.Entrar.UseVisualStyleBackColor = false;
+            this.Entrar.Click += new System.EventHandler(this.Entrar_Click_1);
             // 
             // Cadastrar
             // 
-            Cadastrar.BackColor = Color.Transparent;
-            Cadastrar.Cursor = Cursors.Hand;
-            Cadastrar.FlatAppearance.BorderSize = 0;
-            Cadastrar.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            Cadastrar.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            Cadastrar.FlatStyle = FlatStyle.Flat;
-            Cadastrar.Location = new Point(605, 576);
-            Cadastrar.Name = "Cadastrar";
-            Cadastrar.Size = new Size(290, 73);
-            Cadastrar.TabIndex = 1;
-            Cadastrar.UseVisualStyleBackColor = false;
-            Cadastrar.Click += Cadastrar_Click;
+            this.Cadastrar.BackColor = System.Drawing.Color.Transparent;
+            this.Cadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cadastrar.FlatAppearance.BorderSize = 0;
+            this.Cadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Cadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Cadastrar.Location = new System.Drawing.Point(605, 576);
+            this.Cadastrar.Name = "Cadastrar";
+            this.Cadastrar.Size = new System.Drawing.Size(290, 73);
+            this.Cadastrar.TabIndex = 1;
+            this.Cadastrar.UseVisualStyleBackColor = false;
             // 
             // Entrar_Cadastrar
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1184, 761);
-            Controls.Add(Cadastrar);
-            Controls.Add(Entrar);
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Entrar_Cadastrar";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Company Pet";
-            Load += Entrar_Carregar_Load;
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.Controls.Add(this.Cadastrar);
+            this.Controls.Add(this.Entrar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Entrar_Cadastrar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Company Pet";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
