@@ -16,5 +16,12 @@ namespace Company_Pet
         {
             InitializeComponent();
         }
+
+        private void button_Voltar_Click(object sender, EventArgs e)
+        {
+            Menu voltar = new Menu();
+            this.Hide();
+            voltar.ShowDialog();
+        }
     }
 }

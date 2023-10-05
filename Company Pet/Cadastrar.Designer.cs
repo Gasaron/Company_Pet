@@ -29,124 +29,140 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cadastro));
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            button_Cadastro = new Button();
-            button_voltar_1 = new Button();
-            SuspendLayout();
+            this.Nome = new System.Windows.Forms.TextBox();
+            this.Email = new System.Windows.Forms.TextBox();
+            this.Senha = new System.Windows.Forms.TextBox();
+            this.CEP = new System.Windows.Forms.TextBox();
+            this.CPF = new System.Windows.Forms.TextBox();
+            this.button_Cadastro = new System.Windows.Forms.Button();
+            this.button_voltar_1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
-            // textBox1
+            // Nome
             // 
-            textBox1.BackColor = Color.FromArgb(240, 240, 240);
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Cursor = Cursors.IBeam;
-            textBox1.Location = new Point(371, 373);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(549, 16);
-            textBox1.TabIndex = 0;
-            textBox1.TextChanged += textBox1_TextChanged;
+            this.Nome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.Nome.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Nome.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Nome.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Nome.Location = new System.Drawing.Point(371, 373);
+            this.Nome.Name = "Nome";
+            this.Nome.Size = new System.Drawing.Size(549, 22);
+            this.Nome.TabIndex = 0;
             // 
-            // textBox2
+            // Email
             // 
-            textBox2.BackColor = Color.FromArgb(240, 240, 240);
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Cursor = Cursors.IBeam;
-            textBox2.Location = new Point(368, 432);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(552, 16);
-            textBox2.TabIndex = 1;
+            this.Email.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.Email.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Email.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Email.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Email.Location = new System.Drawing.Point(368, 435);
+            this.Email.Name = "Email";
+            this.Email.Size = new System.Drawing.Size(552, 22);
+            this.Email.TabIndex = 1;
             // 
-            // textBox3
+            // Senha
             // 
-            textBox3.BackColor = Color.FromArgb(240, 240, 240);
-            textBox3.BorderStyle = BorderStyle.None;
-            textBox3.Cursor = Cursors.IBeam;
-            textBox3.Location = new Point(371, 499);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(549, 16);
-            textBox3.TabIndex = 2;
+            this.Senha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.Senha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Senha.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Senha.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Senha.Location = new System.Drawing.Point(371, 499);
+            this.Senha.Name = "Senha";
+            this.Senha.Size = new System.Drawing.Size(549, 22);
+            this.Senha.TabIndex = 2;
+            this.Senha.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox4
+            // CEP
             // 
-            textBox4.BackColor = Color.FromArgb(240, 240, 240);
-            textBox4.BorderStyle = BorderStyle.None;
-            textBox4.Cursor = Cursors.IBeam;
-            textBox4.Location = new Point(352, 562);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(568, 16);
-            textBox4.TabIndex = 3;
+            this.CEP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.CEP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CEP.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CEP.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CEP.Location = new System.Drawing.Point(352, 561);
+            this.CEP.Name = "CEP";
+            this.CEP.Size = new System.Drawing.Size(568, 22);
+            this.CEP.TabIndex = 3;
             // 
-            // textBox5
+            // CPF
             // 
-            textBox5.BackColor = Color.FromArgb(240, 240, 240);
-            textBox5.BorderStyle = BorderStyle.None;
-            textBox5.Cursor = Cursors.IBeam;
-            textBox5.Location = new Point(352, 624);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(568, 16);
-            textBox5.TabIndex = 4;
+            this.CPF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.CPF.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.CPF.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.CPF.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.CPF.Location = new System.Drawing.Point(352, 626);
+            this.CPF.Name = "CPF";
+            this.CPF.Size = new System.Drawing.Size(568, 22);
+            this.CPF.TabIndex = 4;
+            this.CPF.TextChanged += new System.EventHandler(this.CPF_TextChanged);
             // 
             // button_Cadastro
             // 
-            button_Cadastro.BackColor = Color.Transparent;
-            button_Cadastro.BackgroundImageLayout = ImageLayout.Stretch;
-            button_Cadastro.Cursor = Cursors.Hand;
-            button_Cadastro.FlatAppearance.BorderSize = 0;
-            button_Cadastro.FlatStyle = FlatStyle.Flat;
-            button_Cadastro.Location = new Point(555, 690);
-            button_Cadastro.Name = "button_Cadastro";
-            button_Cadastro.Size = new Size(118, 41);
-            button_Cadastro.TabIndex = 5;
-            button_Cadastro.UseVisualStyleBackColor = false;
-            button_Cadastro.Click += button_Cadastro_Click;
+            this.button_Cadastro.BackColor = System.Drawing.Color.Transparent;
+            this.button_Cadastro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button_Cadastro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_Cadastro.FlatAppearance.BorderSize = 0;
+            this.button_Cadastro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_Cadastro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_Cadastro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Cadastro.Location = new System.Drawing.Point(555, 690);
+            this.button_Cadastro.Name = "button_Cadastro";
+            this.button_Cadastro.Size = new System.Drawing.Size(118, 41);
+            this.button_Cadastro.TabIndex = 5;
+            this.button_Cadastro.UseVisualStyleBackColor = false;
+            this.button_Cadastro.Click += new System.EventHandler(this.button_Cadastro_Click_1);
             // 
             // button_voltar_1
             // 
-            button_voltar_1.BackColor = Color.Transparent;
-            button_voltar_1.Cursor = Cursors.Hand;
-            button_voltar_1.FlatAppearance.BorderSize = 0;
-            button_voltar_1.FlatStyle = FlatStyle.Flat;
-            button_voltar_1.Location = new Point(-1, -1);
-            button_voltar_1.Name = "button_voltar_1";
-            button_voltar_1.Size = new Size(80, 80);
-            button_voltar_1.TabIndex = 6;
-            button_voltar_1.UseVisualStyleBackColor = false;
+            this.button_voltar_1.BackColor = System.Drawing.Color.Transparent;
+            this.button_voltar_1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_voltar_1.FlatAppearance.BorderSize = 0;
+            this.button_voltar_1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_voltar_1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_voltar_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_voltar_1.Location = new System.Drawing.Point(-1, -1);
+            this.button_voltar_1.Name = "button_voltar_1";
+            this.button_voltar_1.Size = new System.Drawing.Size(80, 80);
+            this.button_voltar_1.TabIndex = 6;
+            this.button_voltar_1.UseVisualStyleBackColor = false;
+            this.button_voltar_1.Click += new System.EventHandler(this.button_voltar_1_Click);
             // 
             // Cadastro
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1184, 761);
-            Controls.Add(button_voltar_1);
-            Controls.Add(button_Cadastro);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            DoubleBuffered = true;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Cadastro";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Company Pet";
-            Load += Cadastro_Load;
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.Controls.Add(this.button_voltar_1);
+            this.Controls.Add(this.button_Cadastro);
+            this.Controls.Add(this.CPF);
+            this.Controls.Add(this.CEP);
+            this.Controls.Add(this.Senha);
+            this.Controls.Add(this.Email);
+            this.Controls.Add(this.Nome);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Cadastro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Company Pet";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
         private TextBox textBox1;
         private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox Senha;
         private TextBox textBox4;
         private TextBox textBox5;
         private Button button_Cadastro;
         private Button button_voltar_1;
+        private TextBox Nome;
+        private TextBox Email;
+        private TextBox CEP;
+        private TextBox CPF;
+        private Button voltar;
     }
 }

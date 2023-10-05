@@ -41,9 +41,9 @@
             this.Entrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Entrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Entrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Entrar.Location = new System.Drawing.Point(294, 576);
+            this.Entrar.Location = new System.Drawing.Point(283, 455);
             this.Entrar.Name = "Entrar";
-            this.Entrar.Size = new System.Drawing.Size(290, 73);
+            this.Entrar.Size = new System.Drawing.Size(277, 62);
             this.Entrar.TabIndex = 0;
             this.Entrar.UseVisualStyleBackColor = false;
             this.Entrar.Click += new System.EventHandler(this.Entrar_Click_1);
@@ -56,20 +56,23 @@
             this.Cadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Cadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Cadastrar.Location = new System.Drawing.Point(605, 576);
+            this.Cadastrar.Location = new System.Drawing.Point(580, 455);
             this.Cadastrar.Name = "Cadastrar";
-            this.Cadastrar.Size = new System.Drawing.Size(290, 73);
+            this.Cadastrar.Size = new System.Drawing.Size(276, 62);
             this.Cadastrar.TabIndex = 1;
             this.Cadastrar.UseVisualStyleBackColor = false;
+            this.Cadastrar.Click += new System.EventHandler(this.Cadastrar_Click_1);
             // 
             // Entrar_Cadastrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1148, 634);
             this.Controls.Add(this.Cadastrar);
             this.Controls.Add(this.Entrar);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Entrar_Cadastrar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -41,6 +41,7 @@
             // 
             this.Nome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.Nome.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Nome.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Nome.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Nome.Location = new System.Drawing.Point(221, 374);
             this.Nome.Name = "Nome";
@@ -52,6 +53,7 @@
             // 
             this.Senha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.Senha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Senha.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.Senha.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Senha.Location = new System.Drawing.Point(221, 465);
             this.Senha.Name = "Senha";
@@ -62,6 +64,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
@@ -71,28 +74,37 @@
             this.button1.Size = new System.Drawing.Size(189, 53);
             this.button1.TabIndex = 2;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(469, 627);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(247, 32);
             this.button2.TabIndex = 3;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(469, 677);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(247, 32);
             this.button3.TabIndex = 4;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button_voltar_2
             // 

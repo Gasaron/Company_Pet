@@ -22,24 +22,20 @@ namespace Company_Pet
 
         }
 
-        private void Entrar_Click(object sender, EventArgs e)
+
+        private void Entrar_Click_1(object sender, EventArgs e)
         {
             Entrar entrar = new Entrar();
             this.Hide();
             entrar.ShowDialog();
-
         }
 
-        private void Cadastrar_Click(object sender, EventArgs e)
+        private void Cadastrar_Click_1(object sender, EventArgs e)
         {
             Cadastro entrar = new Cadastro();
+
+            entrar.ShowDialog();
             this.Hide();
-            entrar.Show();
-        }
-
-        private void Entrar_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

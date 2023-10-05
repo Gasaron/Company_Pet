@@ -29,74 +29,88 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Planos));
-            button_Voltar = new Button();
-            button_Bronze = new Button();
-            button_Prata = new Button();
-            button_Ouro = new Button();
-            SuspendLayout();
+            this.button_Voltar = new System.Windows.Forms.Button();
+            this.button_Bronze = new System.Windows.Forms.Button();
+            this.button_Prata = new System.Windows.Forms.Button();
+            this.button_Ouro = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // button_Voltar
             // 
-            button_Voltar.BackColor = Color.Transparent;
-            button_Voltar.Cursor = Cursors.Hand;
-            button_Voltar.FlatAppearance.BorderSize = 0;
-            button_Voltar.FlatStyle = FlatStyle.Flat;
-            button_Voltar.Location = new Point(1, 1);
-            button_Voltar.Name = "button_Voltar";
-            button_Voltar.Size = new Size(47, 45);
-            button_Voltar.TabIndex = 1;
-            button_Voltar.UseVisualStyleBackColor = false;
+            this.button_Voltar.BackColor = System.Drawing.Color.Transparent;
+            this.button_Voltar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_Voltar.FlatAppearance.BorderSize = 0;
+            this.button_Voltar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_Voltar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_Voltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Voltar.Location = new System.Drawing.Point(1, 1);
+            this.button_Voltar.Name = "button_Voltar";
+            this.button_Voltar.Size = new System.Drawing.Size(34, 31);
+            this.button_Voltar.TabIndex = 1;
+            this.button_Voltar.UseVisualStyleBackColor = false;
+            this.button_Voltar.Click += new System.EventHandler(this.button_Voltar_Click);
             // 
             // button_Bronze
             // 
-            button_Bronze.BackColor = Color.Transparent;
-            button_Bronze.FlatAppearance.BorderSize = 0;
-            button_Bronze.FlatStyle = FlatStyle.Flat;
-            button_Bronze.Location = new Point(48, 488);
-            button_Bronze.Name = "button_Bronze";
-            button_Bronze.Size = new Size(143, 190);
-            button_Bronze.TabIndex = 2;
-            button_Bronze.UseVisualStyleBackColor = false;
+            this.button_Bronze.BackColor = System.Drawing.Color.Transparent;
+            this.button_Bronze.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_Bronze.FlatAppearance.BorderSize = 0;
+            this.button_Bronze.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_Bronze.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_Bronze.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Bronze.Location = new System.Drawing.Point(37, 346);
+            this.button_Bronze.Name = "button_Bronze";
+            this.button_Bronze.Size = new System.Drawing.Size(99, 140);
+            this.button_Bronze.TabIndex = 2;
+            this.button_Bronze.UseVisualStyleBackColor = false;
+            this.button_Bronze.Click += new System.EventHandler(this.button_Bronze_Click);
             // 
             // button_Prata
             // 
-            button_Prata.BackColor = Color.Transparent;
-            button_Prata.FlatAppearance.BorderSize = 0;
-            button_Prata.FlatStyle = FlatStyle.Flat;
-            button_Prata.Location = new Point(276, 488);
-            button_Prata.Name = "button_Prata";
-            button_Prata.Size = new Size(143, 190);
-            button_Prata.TabIndex = 3;
-            button_Prata.UseVisualStyleBackColor = false;
+            this.button_Prata.BackColor = System.Drawing.Color.Transparent;
+            this.button_Prata.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_Prata.FlatAppearance.BorderSize = 0;
+            this.button_Prata.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_Prata.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_Prata.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Prata.Location = new System.Drawing.Point(201, 346);
+            this.button_Prata.Name = "button_Prata";
+            this.button_Prata.Size = new System.Drawing.Size(100, 140);
+            this.button_Prata.TabIndex = 3;
+            this.button_Prata.UseVisualStyleBackColor = false;
             // 
             // button_Ouro
             // 
-            button_Ouro.BackColor = Color.Transparent;
-            button_Ouro.FlatAppearance.BorderSize = 0;
-            button_Ouro.FlatStyle = FlatStyle.Flat;
-            button_Ouro.Location = new Point(504, 488);
-            button_Ouro.Name = "button_Ouro";
-            button_Ouro.Size = new Size(143, 190);
-            button_Ouro.TabIndex = 4;
-            button_Ouro.UseVisualStyleBackColor = false;
+            this.button_Ouro.BackColor = System.Drawing.Color.Transparent;
+            this.button_Ouro.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_Ouro.FlatAppearance.BorderSize = 0;
+            this.button_Ouro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_Ouro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_Ouro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Ouro.Location = new System.Drawing.Point(364, 346);
+            this.button_Ouro.Name = "button_Ouro";
+            this.button_Ouro.Size = new System.Drawing.Size(100, 140);
+            this.button_Ouro.TabIndex = 4;
+            this.button_Ouro.UseVisualStyleBackColor = false;
             // 
             // Planos
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Zoom;
-            ClientSize = new Size(694, 1061);
-            Controls.Add(button_Ouro);
-            Controls.Add(button_Prata);
-            Controls.Add(button_Bronze);
-            Controls.Add(button_Voltar);
-            DoubleBuffered = true;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Planos";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Company Pet";
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(499, 711);
+            this.Controls.Add(this.button_Ouro);
+            this.Controls.Add(this.button_Prata);
+            this.Controls.Add(this.button_Bronze);
+            this.Controls.Add(this.button_Voltar);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Planos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Company Pet";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

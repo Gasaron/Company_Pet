@@ -1,6 +1,6 @@
 ﻿namespace Company_Pet
 {
-    partial class Consulta
+    partial class Consultar
     {
         /// <summary>
         /// Required designer variable.
@@ -28,39 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Consulta));
-            button_Voltar = new Button();
-            SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Consultar));
+            this.button_Voltar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // button_Voltar
             // 
-            button_Voltar.BackColor = Color.Transparent;
-            button_Voltar.Cursor = Cursors.Hand;
-            button_Voltar.FlatAppearance.BorderSize = 0;
-            button_Voltar.FlatStyle = FlatStyle.Flat;
-            button_Voltar.Location = new Point(2, 1);
-            button_Voltar.Name = "button_Voltar";
-            button_Voltar.Size = new Size(47, 45);
-            button_Voltar.TabIndex = 2;
-            button_Voltar.UseVisualStyleBackColor = false;
+            this.button_Voltar.BackColor = System.Drawing.Color.Transparent;
+            this.button_Voltar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_Voltar.FlatAppearance.BorderSize = 0;
+            this.button_Voltar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_Voltar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_Voltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Voltar.Location = new System.Drawing.Point(2, 1);
+            this.button_Voltar.Name = "button_Voltar";
+            this.button_Voltar.Size = new System.Drawing.Size(34, 36);
+            this.button_Voltar.TabIndex = 2;
+            this.button_Voltar.UseVisualStyleBackColor = false;
+            this.button_Voltar.Click += new System.EventHandler(this.button_Voltar_Click);
             // 
-            // Consulta
+            // button1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Zoom;
-            ClientSize = new Size(678, 1061);
-            Controls.Add(button_Voltar);
-            DoubleBuffered = true;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Consulta";
-            Text = "Company Pet";
-            ResumeLayout(false);
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(367, 710);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(104, 28);
+            this.button1.TabIndex = 3;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Consultar
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(499, 761);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button_Voltar);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Consultar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Company Pet";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
 
         private Button button_Voltar;
+        private Button button1;
     }
 }

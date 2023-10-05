@@ -10,11 +10,25 @@ using System.Windows.Forms;
 
 namespace Company_Pet
 {
-    public partial class Consulta : Form
+    public partial class Consultar : Form
     {
-        public Consulta()
+        public Consultar()
         {
             InitializeComponent();
+        }
+
+        private void button_Voltar_Click(object sender, EventArgs e)
+        {
+            Menu voltar= new Menu();
+            this.Hide();
+            voltar.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Agendamento agendar = new Agendamento();
+            this.Hide();
+            agendar.ShowDialog();
         }
     }
 }

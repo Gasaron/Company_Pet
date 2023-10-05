@@ -1,0 +1,215 @@
+﻿namespace Company_Pet
+{
+    partial class Agendamento
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Agendamento));
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button_Voltar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(203)))), ((int)(((byte)(136)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox1.Location = new System.Drawing.Point(70, 50);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(248, 16);
+            this.textBox1.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(203)))), ((int)(((byte)(136)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox2.Location = new System.Drawing.Point(92, 87);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(226, 16);
+            this.textBox2.TabIndex = 1;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox3.Location = new System.Drawing.Point(92, 464);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(257, 16);
+            this.textBox3.TabIndex = 2;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox4.Location = new System.Drawing.Point(92, 493);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(257, 16);
+            this.textBox4.TabIndex = 3;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox5.Location = new System.Drawing.Point(99, 523);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(250, 16);
+            this.textBox5.TabIndex = 4;
+            // 
+            // textBox6
+            // 
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox6.Location = new System.Drawing.Point(108, 559);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(241, 16);
+            this.textBox6.TabIndex = 5;
+            // 
+            // textBox7
+            // 
+            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox7.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox7.Location = new System.Drawing.Point(86, 587);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(263, 16);
+            this.textBox7.TabIndex = 6;
+            // 
+            // textBox8
+            // 
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox8.Location = new System.Drawing.Point(90, 617);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(259, 16);
+            this.textBox8.TabIndex = 7;
+            // 
+            // textBox9
+            // 
+            this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox9.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.textBox9.Location = new System.Drawing.Point(169, 655);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(181, 16);
+            this.textBox9.TabIndex = 8;
+            // 
+            // button_Voltar
+            // 
+            this.button_Voltar.BackColor = System.Drawing.Color.Transparent;
+            this.button_Voltar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button_Voltar.FlatAppearance.BorderSize = 0;
+            this.button_Voltar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button_Voltar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button_Voltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Voltar.Location = new System.Drawing.Point(0, 0);
+            this.button_Voltar.Name = "button_Voltar";
+            this.button_Voltar.Size = new System.Drawing.Size(34, 36);
+            this.button_Voltar.TabIndex = 9;
+            this.button_Voltar.UseVisualStyleBackColor = false;
+            this.button_Voltar.Click += new System.EventHandler(this.button_Voltar_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(149, 703);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(59, 21);
+            this.button1.TabIndex = 10;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(228, 703);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(59, 21);
+            this.button2.TabIndex = 11;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // Agendamento
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(465, 761);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button_Voltar);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Agendamento";
+            this.Text = "Company Pet";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private TextBox textBox4;
+        private TextBox textBox5;
+        private TextBox textBox6;
+        private TextBox textBox7;
+        private TextBox textBox8;
+        private TextBox textBox9;
+        private Button button_Voltar;
+        private Button button1;
+        private Button button2;
+    }
+}
